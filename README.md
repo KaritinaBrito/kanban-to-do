@@ -1,21 +1,13 @@
 <h1 align="center">To Do</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
   <h3>
-    <a href="https://dashing-sherbet-4d9814.netlify.app/">
+    <a target="_blank"  href="https://dashing-sherbet-4d9814.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/KaritinaBrito/kanban-to-do">
+    <a target="_blank" href="https://github.com/KaritinaBrito/kanban-to-do">
       Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
-      Challenge
     </a>
   </h3>
 </div>
@@ -36,6 +28,7 @@
 ## Overview
 
 <img src="./src/assets/todo.png"/>
+<img src="./src/assets/kanbanMobile.png"/>
 
 This application allows the creation of a new task list, as well as specific tasks within them and the exchange of tasks between lists.
 
