@@ -1,9 +1,49 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --background: #F1EFEF;
+  --cardColor: #E3F4F4;
+  --text: #252B48;  
+  --blue-primary: #238697;
+  --green3: #C4DFDF;
+  --gray: #61677A;
+  --orange: #ECB390;
+  --orange-2: #F77E21;
+}
+html,
+body{
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  border-radius: 10px;
+}
+
+.task > ::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  border-radius: 10px;
+}
+
 
 

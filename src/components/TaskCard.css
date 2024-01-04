@@ -8,10 +8,9 @@
     text-align: left;
     border-radius: 15px;
     position: relative;
-    
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .task-content:hover{
-    border: 2px solid var(--pink2);
     cursor: grab;
 }
 .task-content__area{
@@ -25,7 +24,7 @@
 }
 .btn-task-trash{
     background: var(--background);
-    stroke: #FFF;
+    stroke: var(--text);
     position: absolute;
     right: 16px;
     top: 50%;
@@ -33,17 +32,14 @@
     padding: 15px;
     border-radius: 10px;
     opacity: 0.6;
- 
 }
 .btn-task-trash:hover, .btn-task-trash:focus{
-    outline: var(--background);
-    border: 1px solid var(--background);
     opacity: 1;
     cursor: pointer;
 }
 .isDraggin{
     opacity: 0.4;
-    border: 1px solid var(--pink2);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);;
 }
 
 textarea {
