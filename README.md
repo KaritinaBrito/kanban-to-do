@@ -27,7 +27,7 @@
 
 ## Overview
 
-<img src="./src/assets/todo.png"/>
+<img src="./src/assets/kanban.png"/>
 <img src="./src/assets/kanbanMobile.png"/>
 
 This application allows the creation of a new task list, as well as specific tasks within them and the exchange of tasks between lists.
